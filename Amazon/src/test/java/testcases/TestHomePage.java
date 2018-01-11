@@ -35,4 +35,9 @@ public class TestHomePage extends CommonAPI{
         HomePage homePage = PageFactory.initElements(driver,HomePage.class);
         homePage.gotoRegistry();
     }
+    @Test
+    public void testSell(){
+        HomePage homePage = PageFactory.initElements(driver,HomePage.class);
+        homePage.gotoSell();
+    }
 }

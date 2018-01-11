@@ -22,6 +22,9 @@ public class HomePage {
     @FindBy(css = "#nav-xshop > a:nth-child(5)")
     WebElement registry;
 
+    @FindBy(css = "#nav-xshop > a:nth-child(6)")
+    WebElement sell;
+
     public void gotoHomepage(){
         logo.click();
     }
@@ -38,5 +41,8 @@ public class HomePage {
     }
     public void gotoRegistry(){
         registry.click();
+    }
+    public void gotoSell(){
+        sell.click();
     }
 }
