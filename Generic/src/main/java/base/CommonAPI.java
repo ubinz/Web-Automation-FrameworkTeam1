@@ -24,10 +24,10 @@ import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
     public static WebDriver driver = null;
-    private String saucelabs_username = "mrahman";
-    private String browserstack_username = "matiurrahman3";
-    private String saucelabs_accesskey = "ssh key";
-    private String browserstack_accesskey = "V66sY7ZtcQFksB1YC14z";
+    private String saucelabs_username = "";
+    private String browserstack_username = "";
+    private String saucelabs_accesskey = "";
+    private String browserstack_accesskey = "";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod
