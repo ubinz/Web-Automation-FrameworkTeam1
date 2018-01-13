@@ -14,7 +14,8 @@
         <parameter name="url" value="https://www.salliemae.com"/>
 
         <classes>
-            <class name="testcases.TestSallieMaeBrowserPage"/>
+            <!--<class name="testcases.TestSallieMaeBrowserPage"/>-->
+            <class name="testcases.TestcertificatesOfDeposit"/>
         </classes>
     </test>
 

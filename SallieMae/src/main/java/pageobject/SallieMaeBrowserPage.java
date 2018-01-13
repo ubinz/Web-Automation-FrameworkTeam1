@@ -25,12 +25,9 @@ public class SallieMaeBrowserPage {
     @FindBy(xpath = "//*[@id=\"nav\"]/ul/li[5]/a[2]")
     WebElement searchBanking;
 
-
-
-//    public void gotoLogo(){
-//        logo.click();
+    //    public void gotoLogo(){
+//      logo.click();
 //    }
-
     public void gotoSearchButton() {
         searchButton.click();
     }
