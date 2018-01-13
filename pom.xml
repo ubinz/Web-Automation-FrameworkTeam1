@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>Amazon</module>
         <module>HealthFirst</module>
+        <module>SallieMae</module>
     </modules>
 
     <dependencyManagement>

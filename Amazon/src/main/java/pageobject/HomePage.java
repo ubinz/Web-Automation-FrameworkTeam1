@@ -48,7 +48,7 @@ public class HomePage {
      WebElement careers;
 
     public void gotoHomepage(){
-        logo.click();
+     logo.click();
     }
 
     public void searching(){
