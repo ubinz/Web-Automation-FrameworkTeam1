@@ -11,7 +11,6 @@ public class TestDropDownMenu extends CommonAPI{
         DropDownMenu dropDownMenu = PageFactory.initElements(driver, DropDownMenu.class);
         dropDownMenu.dropDown();
     }
-
     @Test
     public void testMouseHover(){
         DropDownMenu dropDownMenu = PageFactory.initElements(driver, DropDownMenu.class);

@@ -86,7 +86,6 @@ public class CommonAPI {
             driver = new InternetExplorerDriver();
         }
         return driver;
-
     }
     public WebDriver getLocalGridDriver(String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
@@ -227,9 +226,7 @@ public class CommonAPI {
             WebElement element = driver.findElement(By.cssSelector(locator));
             Actions action = new Actions(driver);
             action.moveToElement(element).perform();
-
-        }
-
+            }
     }
     public void mouseHoverByXpath(String locator){
         try {
@@ -241,9 +238,7 @@ public class CommonAPI {
             WebElement element = driver.findElement(By.cssSelector(locator));
             Actions action = new Actions(driver);
             action.moveToElement(element).perform();
-
-        }
-
+            }
     }
     //handling Alert
     public void okAlert(){
@@ -263,7 +258,6 @@ public class CommonAPI {
     public void goBackToHomeWindow(){
         driver.switchTo().defaultContent();
     }
-
     //get Links
     public void getLinks(String locator){
         driver.findElement(By.linkText(locator)).findElement(By.tagName("a")).getText();

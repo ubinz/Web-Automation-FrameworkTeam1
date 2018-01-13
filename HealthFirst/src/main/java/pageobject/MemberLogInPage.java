@@ -29,8 +29,7 @@ public class MemberLogInPage {
     @FindBy(xpath = "//*[@id=\"basicShell\"]/div[1]/div/ul/li[3]/a")
     WebElement langChinese;
 
-    //*********************** Mathods **********************
-
+//    Mathods
     public void loginPageTitle(){
         loginPageTitle.click();
     }

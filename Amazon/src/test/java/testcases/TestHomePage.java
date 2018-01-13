@@ -65,11 +65,11 @@ public class TestHomePage extends CommonAPI{
         HomePage homePage = PageFactory.initElements(driver, HomePage.class);
         homePage.gotoNewYear();
     }
-//    @Test
-//    public void testSports() {
-//        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
-//        homePage.gotoSports();
-//    }
+    @Test
+    public void testSports() {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.gotoSports();
+    }
     @Test
     public void testCareers() {
         HomePage homePage = PageFactory.initElements(driver, HomePage.class);

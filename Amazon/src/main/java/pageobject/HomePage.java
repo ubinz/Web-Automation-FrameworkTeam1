@@ -41,8 +41,8 @@ public class HomePage {
     @FindBy(xpath = "//*[@id=\"navSwmHoliday\"]/a")
     WebElement newYear;
 
-//    @FindBy(xpath = "//*[@id=\"image-shoveler-ns_1JM3G6MFMWFCPG3HMSNC_2273_\"]/div[2]/div/ul/li[3]/span/a/img")
-//    WebElement sports;
+    @FindBy(xpath = "//*[@id=\"image-shoveler-ns_1JM3G6MFMWFCPG3HMSNC_2273_\"]/div[2]/div/ul/li[3]/span/a/img")
+    WebElement sports;
 
     @FindBy(css = "#navFooter > div.navFooterVerticalColumn.navAccessibility > div > div:nth-child(1) > ul > li.nav_first > a")
      WebElement careers;
@@ -56,7 +56,7 @@ public class HomePage {
         searchButton.click();
     }
     public  void gotoTodaysDeals(){
-        todaysDeals.click();
+      todaysDeals.click();
     }
     public void gotoGiftCards(){
         giftCards.click();
@@ -82,9 +82,9 @@ public class HomePage {
     public void gotoNewYear(){
         newYear.click();
     }
-//    public void gotoSports(){
-//        sports.click();
-//    }
+    public void gotoSports(){
+        sports.click();
+    }
     public void gotoCareers(){
         careers.click();
     }

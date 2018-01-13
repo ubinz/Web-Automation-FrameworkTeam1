@@ -8,8 +8,6 @@ package pageobject;
 public class HomePage extends CommonAPI {
     Actions actions = new Actions(driver);
 
-    // Header Element Locators
-
     @FindBy(css = "#header .logo")
     WebElement logo;
 
@@ -40,7 +38,6 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//li[@id = \"menu-item-13283\"]/a[text() = \"Info For Employers\"]")
     WebElement infoForEmployers;
 
-    //************************* Body Element Locators ************************
 
     @FindBy(xpath = "//a[@class = \"view_all_plans\"]")
     WebElement viewAllPlans;
@@ -105,8 +102,6 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"menu-item-7586\"]/a")
     WebElement healthyNYsmallGroup;
 
-    //Info for Member
-
     @FindBy(xpath = "//*[@id=\"menu-item-387\"]/a")
     WebElement memberServices;
 
@@ -124,8 +119,6 @@ public class HomePage extends CommonAPI {
 
     @FindBy(xpath = "//*[@id=\"menu-item-437\"]/a")
     WebElement fAQs;
-
-    //Info for Providers
 
     @FindBy(xpath = "//*[@id=\"menu-item-3313\"]/a")
     WebElement provoderServices;
@@ -145,8 +138,6 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"menu-item-4843\"]/a")
     WebElement clinicalPartnership;
 
-    //other
-
     @FindBy(xpath = "//*[@id=\"menu-item-3994\"]/a")
     WebElement glossery;
 
@@ -165,9 +156,6 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"menu-item-19893\"]/a")
     WebElement noticeofNonDiscri;
 
-
-    //** Footer Element Locators **
-
     @FindBy(xpath = "//li[@id = \"menu-item-3782\"]/a[text() = \"Web Privacy\"]")
     WebElement webPrivacy;
 
@@ -177,7 +165,6 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"menu-item-401\"]/a")
     WebElement siteMap;
 
-    //Social Media*
     @FindBy(xpath = "//a[@href = \"https://www.facebook.com/HealthfirstNY\"]/img")
     WebElement facebook;
 
@@ -191,13 +178,10 @@ public class HomePage extends CommonAPI {
     WebElement pinterest;
 
     @FindBy(xpath = "//a[@href = \"https://www.instagram.com/healthfirstny/\"]/img")
-    WebElement instagram;//************************* End element locator
+    WebElement instagram;
 
 
 
-
-
-    //************************* Header methods ************************
     public void search(){
         searchBox.sendKeys("doctor");
         goBtn.click();
@@ -222,7 +206,7 @@ public class HomePage extends CommonAPI {
     public void gotoInfoForEmployers(){
         infoForEmployers.click();
     }
-    //************************* Body methods ************************
+
     public void gotoViewallPlans(){
         viewAllPlans.click();
     }
@@ -259,8 +243,6 @@ public class HomePage extends CommonAPI {
         contuctUsNY.click();
     }
 
-    // SubFooter Methods
-    //Get Health Insurance
     public void gotoleafPlan(){
         leafPlan.click();
     }
@@ -305,7 +287,6 @@ public class HomePage extends CommonAPI {
         healthyNYsmallGroup.click();
     }
 
-    //Info for member
     public void gotomemberServices(){
         memberServices.click();
     }
@@ -330,7 +311,6 @@ public class HomePage extends CommonAPI {
         fAQs.click();
     }
 
-    //Info for Providers
     public void gotoprovoderServices(){
         provoderServices.click();
     }
@@ -355,7 +335,7 @@ public class HomePage extends CommonAPI {
         clinicalPartnership.click();
     }
 
-    //Others
+
     public void gotoglossery(){
         glossery.click();
     }
@@ -380,7 +360,6 @@ public class HomePage extends CommonAPI {
         noticeofNonDiscri.click();
     }
 
-    //*** Footer Element Locators *
     public void gotowebPrivacy(){
         webPrivacy.click();
     }
@@ -393,7 +372,6 @@ public class HomePage extends CommonAPI {
         siteMap.click();
     }
 
-    //Social media
     public void gotofacebook(){
         facebook.click();
     }

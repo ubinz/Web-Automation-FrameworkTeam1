@@ -12,7 +12,6 @@
         <module>Generic</module>
         <module>Amazon</module>
         <module>HealthFirst</module>
-
     </modules>
 
     <dependencyManagement>
@@ -52,7 +51,6 @@
                 <artifactId>mongo-java-driver</artifactId>
                 <version>3.6.0-beta1</version>
             </dependency>
-            <!-- pom.xml -->
             <dependency>
                 <groupId>com.aventstack</groupId>
                 <artifactId>extentreports</artifactId>
@@ -83,5 +81,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
