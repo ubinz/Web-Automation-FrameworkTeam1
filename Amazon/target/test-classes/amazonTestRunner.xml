@@ -18,8 +18,8 @@
         <parameter name="url" value="http://amazon.com"/>
 
         <classes>
-            <!--<class name="testcases.TestHomePage"/>-->
-            <class name="testcases.TestDropDownMenu"/>
+            <class name="testcases.TestHomePage"/>
+            <!--<class name="testcases.TestDropDownMenu"/>-->
         </classes>
     </test>
 

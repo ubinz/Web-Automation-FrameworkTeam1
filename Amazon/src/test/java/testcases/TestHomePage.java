@@ -40,4 +40,39 @@ public class TestHomePage extends CommonAPI{
         HomePage homePage = PageFactory.initElements(driver,HomePage.class);
         homePage.gotoSell();
     }
+    @Test
+    public void testHelp(){
+        HomePage homePage = PageFactory.initElements(driver,HomePage.class);
+        homePage.gotoHelp();
+    }
+    @Test
+    public void testOrders() {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.gotoOrders();
+    }
+    @Test
+    public void testLinkPrime() {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.gotoLinkPrime();
+    }
+    @Test
+    public void testCart() {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.gotoCart();
+    }
+    @Test
+    public void testNewYear() {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.gotoNewYear();
+    }
+//    @Test
+//    public void testSports() {
+//        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+//        homePage.gotoSports();
+//    }
+    @Test
+    public void testCareers() {
+        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.gotoCareers();
+    }
 }

@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Amazon" />
         <module name="Generic" />
+        <module name="HealthFirst" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Amazon" target="1.8" />
       <module name="Generic" target="1.8" />
+      <module name="HealthFirst" target="1.8" />
       <module name="Web-Automation-FrameworkTeam1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
