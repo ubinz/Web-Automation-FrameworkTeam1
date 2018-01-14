@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="UPS" parallel="false">
+
+    <test name="Test Ups">
+
+        <parameter name="useCloudEnv" value="false"/>
+        <parameter name="cloudEnvName" value="browserstack"/>
+        <parameter name="os" value="Windows"/>
+        <parameter name="os_version" value="Windows"/>
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserVersion" value="63.0"/>
+        <parameter name="url" value="https://www.ups.com"/>
+
+        <classes>
+            <class name="testcases.TestUpsTrackingHomePage"/>
+        </classes>
+    </test>
+</suite>

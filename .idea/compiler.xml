@@ -10,6 +10,7 @@
         <module name="Generic" />
         <module name="HealthFirst" />
         <module name="SallieMae" />
+        <module name="UPS" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="Generic" target="1.8" />
       <module name="HealthFirst" target="1.8" />
       <module name="SallieMae" target="1.8" />
+      <module name="UPS" target="1.8" />
       <module name="Web-Automation-FrameworkTeam1" target="1.8" />
     </bytecodeTargetLevel>
   </component>

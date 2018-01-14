@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/HealthFirst/HealthFirst.iml" filepath="$PROJECT_DIR$/HealthFirst/HealthFirst.iml" />
       <module fileurl="file://$PROJECT_DIR$/SallieMae/SallieMae.iml" filepath="$PROJECT_DIR$/SallieMae/SallieMae.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UPS/UPS.iml" filepath="$PROJECT_DIR$/UPS/UPS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Web-Automation-FrameworkTeam1.iml" filepath="$PROJECT_DIR$/Web-Automation-FrameworkTeam1.iml" />
     </modules>
   </component>
