@@ -4,10 +4,6 @@
 <suite name="HealthFirst" parallel="false">
 
     <test name="Test HealthFirst">
-        <!--<parameter name="browser_name" value="chrome"/>-->
-        <!--<parameter name="operating_system" value="windows"/>-->
-        <!--<parameter name="URL" value="https://www.amazon.com/"/>-->
-
 
         <parameter name="useCloudEnv" value="false"/>
         <parameter name="cloudEnvName" value="browserstack"/>
@@ -19,10 +15,7 @@
 
         <classes>
             <class name="testcases.TestHomePage"/>
-            <class name="testcases.TestMemberLogInPage"/>
-
-            <!--<class name="testcases.TestDropDownMenu"/>-->
+            <!--<class name="testcases.TestMemberLogInPage"/>-->
         </classes>
     </test>
-
 </suite>
