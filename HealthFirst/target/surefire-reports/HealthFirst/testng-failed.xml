@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HealthFirst]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="Test HealthFirst(failed)">
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="Windows"/>
+    <parameter name="browserVersion" value="63.0"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="url" value="http://healthfirst.org"/>
+    <classes>
+      <class name="testcases.TestMemberLogInPage">
+        <methods>
+          <include name="testMemberLogIn"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- testcases.TestMemberLogInPage -->
+    </classes>
+  </test> <!-- Test HealthFirst(failed) -->
+</suite> <!-- Failed suite [HealthFirst] -->

@@ -34,9 +34,9 @@ public class MemberLogInPage {
         loginPageTitle.click();
     }
 
-    public void memberLogin(){
-        userNamefield.sendKeys("abc@yahoo.com");
-        passwordfield.sendKeys("abc123");
+    public void memberLogin(String username, String password){
+        userNamefield.sendKeys(username);
+        passwordfield.sendKeys(password);
         loginBtn.click();
     }
 
